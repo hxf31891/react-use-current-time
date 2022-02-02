@@ -36,7 +36,7 @@ function useCurrentTime() {
   return {
     date,
     hours: getHours(date),
-    mintues: getMinutes(date),
+    minutes: getMinutes(date),
     seconds: getSeconds(date),
     time: format(date, "hh:mm aa"),
     military: format(date, "H:mm")
