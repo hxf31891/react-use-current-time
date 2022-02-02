@@ -19,8 +19,19 @@
   ],
   "author": "hxf31891",
   "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.3.0 || ^17.0.0 || ^18.0.0"
+  },
   "bugs": {
     "url": "https://github.com/hxf31891/react-use-current-time/issues"
   },
-  "homepage": "https://github.com/hxf31891/react-use-current-time#readme"
+  "homepage": "https://github.com/hxf31891/react-use-current-time#readme",
+  "publishConfig": {
+    "@hxf31891:registry": "https://npm.pkg.github.com"
+  }
 }
