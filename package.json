@@ -1,0 +1,26 @@
+{
+  "name": "react-use-current-time",
+  "version": "1.0.0",
+  "description": "A lightweight package to keep track of time using React hooksA lightweight package to keep track of time using React hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxf31891/react-use-current-time.git"
+  },
+  "keywords": [
+    "react",
+    "time",
+    "current-time",
+    "clock",
+    "hooks"
+  ],
+  "author": "hxf31891",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hxf31891/react-use-current-time/issues"
+  },
+  "homepage": "https://github.com/hxf31891/react-use-current-time#readme"
+}
