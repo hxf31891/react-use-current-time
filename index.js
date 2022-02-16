@@ -2,9 +2,9 @@ import {
   differenceInMilliseconds,
   startOfSecond,
   addSeconds,
-  getHours,
   getSeconds,
   getMinutes,
+  getHours,
   getYear,
   format
 } from "date-fns";
@@ -36,12 +36,12 @@ function useCurrentTime() {
 
   return {
     date,
+    year: getYear(date),
     hours: getHours(date),
     minutes: getMinutes(date),
     seconds: getSeconds(date),
     time: format(date, "hh:mm aa"),
-    military: format(date, "H:mm"),
-    year: getYear(date)
+    military: format(date, "H:mm")
   };
 }
 
