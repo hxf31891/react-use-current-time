@@ -5,6 +5,7 @@ import {
   getHours,
   getSeconds,
   getMinutes,
+  getYear,
   format
 } from "date-fns";
 import { useEffect, useState, useRef } from "react";
@@ -39,7 +40,8 @@ function useCurrentTime() {
     minutes: getMinutes(date),
     seconds: getSeconds(date),
     time: format(date, "hh:mm aa"),
-    military: format(date, "H:mm")
+    military: format(date, "H:mm"),
+    year: getYear(date)
   };
 }
 
