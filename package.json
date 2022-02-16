@@ -1,6 +1,6 @@
 {
   "name": "react-use-current-time",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight package to keep track of time using React hooksA lightweight package to keep track of time using React hooks",
   "main": "index.js",
   "scripts": {
